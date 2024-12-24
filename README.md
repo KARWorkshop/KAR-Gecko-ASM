@@ -7,6 +7,8 @@ Some of theses codes have been developed over time and thus have been tweaked he
 
 - LegacyASM || old ASM of the codes recover, kept for historical sake.
 
+- Modifier Guide || this contains codes that need specific modifers and the old guide from the KAR.de site. Theses codes aren't really used but should be archived and or make a prog to generate them so they can be used in the future.
+
 - CT_NetplayCore || All the core codes used in netplay, always enabled.
 
 - CT_Fullscreen || All the screen codes and specific screen codes. Auto-loaded by KARphin

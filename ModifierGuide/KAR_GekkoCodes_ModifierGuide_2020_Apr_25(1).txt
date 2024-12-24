@@ -1,0 +1,230 @@
+Date: April 25, 2020
+Hi, the latest modifier guide has been updated alongside the codeset revision to modify the way modifier codes are done. :)
+Modifier codes when added as previously listed are converted to hex automatically, therefore you cannot see where to input your own custom hex/floater value.
+The codes have been changed to a note format where if you want to add them; you will need to edit the config yourself.
+
+HOW TO:
+The code will look like this in the notes: ||0400D340 3880000X||0400D384 3860000X||0400D358 388000YY||0400D398 388000YY||
+
+You will need to open/edit the config and you will see it looks like this:
+*||0400D340 3880000X|
+*|0400D384 3860000X|
+*|0400D358 388000YY|
+*|0400D398 388000YY||
+
+You can simply remove the | and * characters, then reference the modifier guide to input your own values into X and Y.
+I would suggest copying the unmodifed code to the pre-set modifier category before inputting your own; so you retain the inital values.
+
+I hope this has improved the usage of this modifier section and guide. Best of luck.
+-Eternalll
+
+Use https://www.h-schmidt.net/FloatConverter/IEEE754.html to convert floating point to hex and vise versa
+Thanks to LuigiBlood for data sheet
+Thanks to container12345 for his massive amount of modifier gecko codes and instructions
+
+------
+Character and machine in Title Screen modifier [container12345]
+X=character (0=kirby, 1=dedede, 2=meta knight)
+YY=machine id
+0000 - Warpstar
+0001 - Compact Star
+0002 - Winged Star
+0003 - Shadow Star
+0004 - Hydra
+0005 - Bulk Star
+0006 - Slick Star
+0007 - Formula Star
+0008 - Dragoon
+0009 - Wagon Star
+000A - Rocket Star
+000B - Swerve Star
+000C - Turbo Star
+000D - Jet Star
+000E - Flight Warpstar
+000F - Free Star
+0010 - Steer Star
+0011 - Invisible Star (Kirby)
+0012 - Invisible Star (Meta Knight)
+1000 - Beta Wheelie
+1001 - Wheelie
+1002 - Wheelie Bike
+1003 - Rex Wheelie
+1004 - Wheelie Scooter
+1004 - Wheelie Scooter
+1005 - King Dedede Wheelie
+1006 - King Dedede VS Wheelie
+It doesn't work with bikes
+
+------
+Specific events don't occur [container12345]
+N=the number of events which won't occur + 1
+XX,YY,ZZ... = event id multiplied by 4
+(Suggested to use the hack pack for ez functionality with GUI)
+
+------
+Change machine for player 5 [container12345]
+if player 5 uses bikes, delete line 2
+
+------
+Menu speed modifier [container12345]
+Default is 0x3C888889 (0.016667)
+the more the slower
+
+------
+In-game speed modifier
+Default is 0x000A4CB8 (675000)
+Slow game tempo is 0x000F7314 (1012500)
+the more the slower
+
+------
+Item spawning rate modifier on Top Ride [container12345]
+X=Few, Y=Normal, Z=Many
+default values are 0.35, 0.6, 1 (float)
+
+------
+$Default time limit on Air Ride modifier [container12345]
+X=seconds (A multiple of 60 is desirable)
+
+------
+Default Air Ride setting modifier [container12345]
+X=flags
++0x4 Game Tempo (Normal)
++0x8 Game Tempo (Slow)
++0x10 Enemy
++0x20 Damage
++0x40 Speed Help (weak)
++0x80 Speed Help (strong)
+
+------
+Default time limit on City Trial modifier
+X=seconds (A multiple of 60 is desirable)
+
+------
+Default stadium modifier [container12345]
+X=Stadium
+0 Shuffle
+1 Drag Race
+2 Air Glider
+3 Target Flight
+4 High Jump
+5 Kirby Melee
+6 Destruction Derby
+7 Single Race
+8 Vs. King Dedede
+
+------
+Default City Trial setting modifier [container12345]
+X=flags
++0x20 Event
++0x40 Game Tempo (Normal)
++0x80 Game Tempo (Slow)
+
+------
+Machine Formation Modifier [container12345]
+0x0 <= X <= 0x19
+
+------
+Appearance rate modifier for Compact Star, Hydra, Dragoon, Flight Warp Star, Free Star, and Steer Star [container12345]
+XXXX=first 2byte of float value (0x3F80 = 1.0)
+between 6.0 and 10.0 is mostly used by other machines
+
+------
+Always specific event occurs [container12345]
+X = Event ID
+0= Dyna Blade
+1= Tac
+2= Meteor
+3= Pillar
+4= Run Amok
+5= Restoration Area
+6= Railway Set Aflame
+7= Boxes Contain the Same
+8= Lighthouse
+9= Secret Chamber
+A= Prediction
+B= Machine Formation
+C= UFO
+D= Item Bounce
+E= Dense Fog
+F= Fake Powerups
+
+------
+Expression modifier [container12345]
+0=Normal
+1=Half-open eyes
+2=Closed eyes
+3=Teary eyes
+4=Angry face 1
+5 or more=Angry face 2
+
+------
+Incomplete bomb size modifier [container12345]
+X=float value (default is 1.0)
+
+------
+$Cracker bullet modifier [container12345]
+0=Star
+1=Two stars
+2=Fire
+3=Fire?
+4=Bomb
+5=Plasma 1
+6=Plasma 2
+7=Plasma 3-a
+8=Plasma 3-b
+9=Plasma 4
+A=Plasma 5
+B=Star
+C=unknown or crash
+D=Snowstorm
+E=Cracker bullet
+F=Time bomb
+10=Gordo
+
+------
+Wrong Stadium Prediction Modifier [UnclePunch]
+*Replace XXXX with the 1 in X chance value
+*Default value is 5
+
+------
+Star bullet modifier
+values are same as Cracker bullet modifier
+
+------
+Dyna Blade Size Modifier [container12345]
+default is 0x3F800000 (1.0)
+
+------
+Tac Size Modifier [container12345]
+default is 0x3F800000 (1.0)
+
+------
+Damage Scaling Modifier for all Stadium [container12345]
+XXXX is upper 16bit of float value (0x3F80 = 1.0)
+
+------
+Stage Scale Modifier [container12345]
+XXXX is upper 16 bit of float (0x3F80 = 1.0)
+default value differs between stages
+
+------
+Pad modifier [container12345]
+X= pad type
+https://docs.google.com/spreadsheets/d/1QzlR9GPdHT6xknVBTYXqW-XE8a_KlU2n_BSqljwOn2Y/edit#gid=1374871051
+
+------
+$Fire ability size modifier [container12345]
+default values are 0.3 (X=0x3E9A) and 1.0 (Y=0x3F80)
+
+------
+Snowstorm size modifier [container12345]
+default is 1.0 (0x3F80)
+
+------
+$Sensor Bomb Explosion Timer Modifier [container12345]
+default is 0x0960
+
+
+------
+$Bomb Ability Explosion Timer Modifier [container12345]
+default  is 0x000E
