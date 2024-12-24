@@ -3,3 +3,7 @@ All the codes to do with the custom input and affects. Some are built in now a d
 - Press Y To Bring Up Stats || Brings up stats in a CT match
 
 - X And Y Cycle Ability Costumes || cycles the abiltiies with X and Y
+
+- LR No Jump Or Charge || disables L and R from jumping and charging
+
+- DPad No Move || disables using the D Pad to move

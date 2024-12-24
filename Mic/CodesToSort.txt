@@ -1,68 +1,4 @@
 
-
-
-
-
-$CPU AI always aggressive [container12345]
-04262E04 38600008
-*Destruction Derby AI on all gamemodes except Top Ride. CPU won't look for new machines, because Destruction Derby AI normally doesn't need to. Therefore, combine this code with the "Allow machine select on City Trial" code to get the CPUs on other machines than Compact Star
-$All machines selectable in Stadium mode [container12345]
-0402E538 60000000
-0402E5A0 60000000
-0402E6F0 60000000
-$All Craft in Air Ride [Gamemasterplc]
-04020BBC 60000000
-04020B20 60000000
-$Enable Dedede and Meta Knight on City Trial [container12345]
-04112CD8 48000074
-04117EB0 60000000
-04118858 60000000
-04119E7C 60000000
-0411F03C 60000000
-041240AC 60000000
-04125F2C 60000000
-$All players start with Meta Knight on City Trial (VIEW NOTE) [container12345]
-0402DE80 38000013
-*Must enable "Enable Dedede and Meta Knight on City Trial to use this code
-$Disable "Enable getting out of a vehicle" code for HackPack [container12345]
-C21918E0 00000003
-3C608000 6063ACB0
-7C6903A6 4E800421
-7C630774 00000000
-$16:9 Aspect Ratio v2 [gamemasterplc]
-040647F4 C05E0040
-C2064588 00000006
-C05C0044 3C808010
-80610114 7C041800
-386100B4 41800014
-3C803FAB 90830000
-C0630000 EC4300B2
-60000000 00000000
-C2401508 00000009
-3821FFFC 3C803F40
-90810000 809E004C
-3CA04280 7C042800
-41820020 C0210000
-C0010030 EC010032
-D0010030 C001003C
-EC010032 D001003C
-38210004 7FE4FB78
-60000000 00000000
-0427AE50 4E800020
-C20D7F08 00000004
-3821FFFC 3C603E40
-90610000 C3A10000
-C01E0044 EC00E824
-38210004 00000000
-*Play in 16:9. Note that this code will cause desyncs if other players haven't enabled this code, just like any other gecko codes can desync a lobby when unmatched
-$Remove Stats Limit [container12345,gamemasterplc]
-04194DEC 4800000C
-04194E40 60000000
-04194ED4 60000000
-04194F28 60000000
-04195020 48000060
-041CAB14 4800001C
-041CAC64 4800001C
 $Press Y to Quick Spin [container12345]
 C2191A3C 00000005
 807E03E4 5463AFFF
@@ -70,172 +6,23 @@ C2191A3C 00000005
 546307BC 3803FFFF
 901F0000 38600001
 60000000 00000000
-$Enable Quick Spin in the air [container12345]
-C21AC170 00000005
-2C030000 4082001C
-3C60801B 60637E80
-7C6903A6 7FE3FB78
-4E800421 2C030000
-60000000 00000000
-$Enable machine collision for Air Ride and Stadium [container12345]
-041D74E8 60000000
-041D762C 60000000
-$Disable machine collision for City Trial [container12345]
-0400A214 38600000
-$Respawn like Destruction Derby when destroyed [container12345]
-041A5178 60000000
-$Infinite Jumps
-C21BD7C4 00000003
-2C030001 4182000C
-38030001 48000008
-7C601B78 00000000
-$Enable Quick Spin with Plasma, Bomb and Mike [container12345]
-041B7E9C 60000000
-041B1530 4BFF9E08
-041B40C8 93E1000C
-041B40CC 7C7F1B78
-041B40D0 4BFDCB85
-041B40D4 4BFF7264
-C21AB1C4 00000005
-38800021 80A30454
-2C050004 40A2000C
-3880005A 48000010
-2C050007 40A20008
-38800062 00000000
-$Allow CPUs on City Trial Free Run [container12345]
-0403B458 60000000
-$Allow CPUs on Air Ride Free Run [container12345]
-0402A328 60000000
-$Colorful menu [container12345]
-C23FAC58 00000013
-8A860004 8AA60005
-8AC60006 7C14B000
-40810024 7C16A800
-4180000C 3AD60001
-48000060 7C14A800
-4180000C 3AB5FFFF
-48000050 7C16A800
-40810024 7C15A000
-4180000C 3AB50001
-48000038 7C16A000
-4180000C 3A94FFFF
-48000028 7C15A000
-4081002C 7C14B000
-4180000C 3A940001
-48000010 7C15B000
-41800008 3AD6FFFF
-9A860004 9AA60005
-9AC60006 80060004
-60000000 00000000
-*A color morphing effect on the menu UI.
-$Infinite Jumps All Players [Shank + UnclePunch]
-C21BD7C4 00000003
-2C030001 4182000C
-38030001 48000008
-7C601B78 00000000
-$Disable conveyor [container12345]
-040E8058 480002BC
-$Disable switch [container12345]
-040E86DC 4E800020
-$Infinite Acceleration v3 [gamemasterplc, container12345]
-041EC0C4 38600000
-041F7948 38600000
-$Infinite Glide Time
-041C612C 60000000
-$Disable CPU cheating on VS. King Dedede [container12345]
-04040CBC 48000070
-$Disable Moving With DPad [UnclePunch]
-0418f0c8 60000000
-$Disable L/R Jumping and Charging [UnclePunch]
-0418efe4 60000000
-$Invulnerable (gamemasterplc)
-0418D080 38600001
-$No enemies on Air Ride [container12345]
-040133F0 38600000
-$The race will continue on Top Ride until all CPU reach a goal (VIEW NOTE) [container12345]
-042A0164 60000000
-042A01F0 60000000
-042A027C 60000000
-042A0308 60000000
-*Enable the code below in order to avoid getting stuck in properties graph.
-$Avoid getting stuck in the properties graph when all players are CPUs [container12345]
-04045DB4 60000000
-04046374 60000000
-$One Hit Kill [container12345]
-041E1F44 EC210828
-$Remove the arrow in front of machines [container12345]
-041C70C4 48000014
-$Kirby Air Surf v3 [container12345]
-C21A63B4 00000008
-806D07F8 2C030035
-41820030 2C040003
-41800028 2C040044
-4181000C 38840095
-48000018 2C040064
-41800010 2C040075
-41810008 38840076
-7C832378 00000000
-C21A63A8 00000009
-2C040005 41800014
-2C040006 4181000C
-388401CF 48000030
-2C040044 4181000C
-38840095 48000020
-2C040064 41800014
-2C040069 4181000C
-38840076 48000008
-3884016A 00000000
-$Machine is destroyed when hitting a wall [container12345]
-C22312F0 00000007
-2C1C0000 41820028
-807C002C 806306F8
-80630044 80630170
-2C030000 41820010
-38000000 807C002C
-90030A18 7F83E378
-60000000 00000000
-$Machines get stuck when hitting a wall [container12345]
-041905AC 38600001
-041D2CC0 38000001
-$Machines take damage when hitting a wall [container12345]
-C22312F0 00000009
-2C1C0000 41820038
-807C002C 806306F8
-80630044 80630170
-2C030000 41820020
-3C003F00 807C002C
-C2830A18 90030A18
-C2A30A18 FE94A828
-D2830A18 7F83E378
-60000000 00000000
 
 
 
 
 
 
-$Reduce CPU Quick Spin [container12345]
-042750F4 60000000
-$Machines always successfully land [container12345]
-041cdb08 60000000
-041cf588 38600001
-$No 1-Kit KOs [container12345]
-C21E1F44 00000004
-C042B608 FC011040
-FC21F828 40810010
-FC011040 41810008
-FC201090 00000000
-*Originally titled: 1HP handicap like RtDL
-$Disable machines sticking to a wall [container12345]
-041D2B4C 480001B8
-$Disable machines sticking to a floor [container12345]
-041D2D58 4800001C
-$Kirby can't get up when his machine is destroyed [container12345]
-041A5648 60000000
-041BD8D8 38600000
-041BD8DC 4E800020
-$Disable camera tilting when turning [container12345]
-040B390C 60000000
+
+
+
+
+
+
+
+
+
+
+
 
 
 $--------========<<<<<< City Trial >>>>>>========--------
@@ -267,9 +54,7 @@ C2045C88 00000004
 38000000 88630a94
 2c03000f 40a20008
 38000003 00000000
-$All players start with Dedede on City Trial (VIEW NOTE) [container12345]
-0402DE80 38000012
-*Must enable "Enable Dedede and Meta Knight on City Trial to use this code
+
 $Random Course Music (Air Ride and CT) [UnclePunch]
 C2261F40 0000000D
 3E008041 6210E668
@@ -294,23 +79,9 @@ $CT Time of Day Evening [UnclePunch]
 $CT Time of Day Night [UnclePunch]
 0410f1bc 3800000C
 
-$Invincible Whispy [container12345]
-0410DB84 60000000
-$All players start with random machine include Dedede and Meta Knight on City Trial (VIEW NOTE) [container12345]
-040E37A4 48000038
-C202DE80 00000005
-38600011 3E808041
-6294E668 7E8903A6
-4E800421 2C03000E
-40A10008 38630003
-7C601B78 00000000
-*Must enable "Enable Dedede and Meta Knight on City Trial to use this code
-$All players start with random machines on City Trial v3 [container12345]
-C202DE80 00000004
-3C608041 6063E668
-7C6903A6 3860000F
-4E800421 7C601B78
-60000000 00000000
+
+
+
 
 
 
@@ -329,17 +100,8 @@ D0230310 00000000
 041E02B0 60000000
 
 
-$Default rule is Time [container12345]
-04007004 98FE0000
-040073F0 98FC0000
-$Enable Free Star and Steer Star in City Trial [container12345]
-C21C6D44 00000006
-82830020 82940008
-3EA04100 92B40040
-92B40044 92B400AC
-92B400B0 92B40118
-92B4011C 80030000
-60000000 00000000
+
+
 $City Trial Music won't change in the remaining 30 seconds [container12345]
 04011E8C 48000020
 $Prediction Always at Start of City Trial [UnclePunch]
@@ -358,22 +120,10 @@ C21279A4 00000005
 7FA903A6 4E800421
 3BA30010 00000000
 
-$Respawn Dedede and Meta Knight in City Trial when defeated v2 [container12345]
-C21A5170 00000007
-3C608053 606359D8
-88630A94 2C03000E
-41820020 2C030005
-41820014 2C030006
-4182000C 38600000
-48000008 807F0004
-60000000 00000000
-*Must enable "Enable Dedede and Meta Knight on City Trial to use this code
+
 $Secret Chamber Always Contains All Patches [UnclePunch]
 0410a9e8 38600014
-$Machines never get stuck when hitting a wall on City Trial [container12345]
-041D2B70 41820150
-$Vehicles won't blast off [container12345]
-041E0270 60000000
+
 
 $Disable machine stats showing up when pausing [container12345]
 041139A0 48000064
