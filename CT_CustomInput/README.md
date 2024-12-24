@@ -7,3 +7,5 @@ All the codes to do with the custom input and affects. Some are built in now a d
 - LR No Jump Or Charge || disables L and R from jumping and charging
 
 - DPad No Move || disables using the D Pad to move
+
+- Press Y To Quick Spin || press Y to quick spin

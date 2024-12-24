@@ -29,3 +29,7 @@ Various rider based codes
 - Kirby Air Surface || 
 
 - Respawn Like DD When Dead || respawns as if we were in destruction durby when killed
+
+- Enable CPU Stat Cheating For Players In CT || gives players cheated stats like the CPUs
+
+- Kirb And Machine Become Bigger Over Time || Kirb And Machine Become Bigger Over Time

@@ -4,4 +4,4 @@ Various codes that affect the AI
 
 - AI Always Aggresive || Makes CPUs act like they're in Destruction Durby (expect in Top Ride). If you want them to get on a new machine will need to use the CT Machine select code, as the AI isn't meant to hunt for new machines
 
-- Disable Deedeedee Cheating || stops the CPU from cheating with buffed stats when facing Deedeedee in VS
+- Disable CPU Cheating || stops the CPU from cheating with buffed stats when facing Deedeedee in VS and or in general

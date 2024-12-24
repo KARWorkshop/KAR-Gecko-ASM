@@ -1,75 +1,15 @@
 
-$Press Y to Quick Spin [container12345]
-C2191A3C 00000005
-807E03E4 5463AFFF
-41A20018 7C6C42E6
-546307BC 3803FFFF
-901F0000 38600001
-60000000 00000000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $--------========<<<<<< City Trial >>>>>>========--------
 *Codes that strictly modify City Trial and its functions.
-$Dilapidates Houses have 0 HP [Cheetaboy]
-20adadf4 408A3D71
-04adadf4 00000000
-e2000001 00000000
-$Disable CPU cheating on City Trial [container12345]
-04015A00 4E800020
-$Enable CPU cheating for player on City Trial [container12345]
-04014AB0 60000000
-04015A6C 60000000
-04015ABC 60000000
-C2014AB4 00000002
-38000008 40A20008
-88180009 00000000
-$Prediction Always at Start of City Trial [UnclePunch]
-C20EDCA8 00000004
-3860000A 3DC0800E
-61CEE778 7DC903A6
-4E800421 80010014
-60000000 00000000
 
 
-$3 Laps Single Race v2 [container12345]
-C2045C88 00000004
-3c608053 606359d8
-38000000 88630a94
-2c03000f 40a20008
-38000003 00000000
 
-$Random Course Music (Air Ride and CT) [UnclePunch]
-C2261F40 0000000D
-3E008041 6210E668
-7E0903A6 3860002F
-4E800421 2C03000F
-4081FFE8 2C030027
-40820008 38600006
-2C030029 40820008
-38600004 2C03002B
-40820008 3860000D
-2C03001A 40820008
-3860003F 2C030025
-40820008 38600041
-2C03002F 40820008
-38600043 00000000
+
+
+
+
+
+
 $CT Time of Day Daytime [UnclePunch]
 0410f1bc 38000000
 $CT Time of Day Foggy [UnclePunch]
@@ -85,40 +25,14 @@ $CT Time of Day Night [UnclePunch]
 
 
 
-$Kirby and machine become huge as time goes on [container12345]
-C2190860 00000004
-C02302C8 3DE038D1
-61EFB717 91E302C8
-C1E302C8 FC21782A
-D02302C8 00000000
-C21DAA6C 00000004
-C0230310 3DE038D1
-61EFB717 91E30310
-C1E30310 FC21782A
-D0230310 00000000
-041E01AC 60000000
-041E02B0 60000000
 
 
 
 
-$City Trial Music won't change in the remaining 30 seconds [container12345]
-04011E8C 48000020
-$Prediction Always at Start of City Trial [UnclePunch]
-C20EDCA8 00000004
-3860000A 3DC0800E
-61CEE778 7DC903A6
-4E800421 80010014
-60000000 00000000
-$Stadium Prediction Always Correct [UnclePunch]
-04127998 48000014
-$Stadium Prediction Never Predicts Right 1/5 times
-C21279A4 00000005
-3FA08053 8BBD5F85
-7C03E800 40820014
-3FA08012 63BD799C
-7FA903A6 4E800421
-3BA30010 00000000
+
+
+
+
 
 
 $Secret Chamber Always Contains All Patches [UnclePunch]
@@ -135,21 +49,12 @@ $Disable City Trial stats adjustment [container12345]
 045DE880 00000000
 
 
-$Play sound fx when legendary machine parts contained in red box appears [container12345]
-C20EA7E8 00000007
-2C1E0002 4082002C
-3C608044 60632A10
-7C6903A6 3C600002
-606300A6 388000FF
-38A0007F 38C00002
-38E00003 4E800421
-2C1E0003 00000000
+
 
 *https://twitter.com/container12345/status/1368234558148153354
 $--------========<<<<<< Event and Stadium >>>>>>========--------
 *Event & stadium codes.
-$Disable fog [container12345]
-043CF3C4 60000000
+
 $Disable Chance to NOT have an Event [UnclePunch]
 040ee2c4 38600000
 $Remove Target Flight from Shuffle [container12345]
@@ -168,29 +73,8 @@ $Pillars won't be restored after collapse in Sky Sands [container12345]
 04100E3C 60000000
 $Fire dragons won't fly out of lava [container12345]
 0410A058 60000000
-$No fog event [container12345]
-C20EDF58 00000002
-38000038 7C83012E
-39000000 00000000
-$Fog event is more likely to occur [container12345]
-C20EDF58 00000003
-38000038 38807000
-7C83012E 39000000
-60000000 00000000
-$Rubbery Items event never ends [container12345]
-04111C90 48000018
-$Dense Fog event never ends [container12345]
-04111908 4800000C
-$Fake patches event never ends [container12345]
-04111A30 48000018
-$Run amok event never ends [container12345]
-0411101C 4800003C
-$Burning rail station won't be extinguished v2 [container12345]
-041117CC 60000000
-$Same item event never ends [container12345]
-04111BF0 48000018
-$Lighthouse event never ends [container12345]
-04111FE4 4800000C
+
+
 $All events are foggy [container12345]
 040DC390 38000288
 $No fog event and no item bouncy event v3 [container12345]
