@@ -13,4 +13,4 @@ Some of theses codes have been developed over time and thus have been tweaked he
 
 - CT_TimeOfDay || Affect the time of day in a CT match
 
-- BootScreen || Codes for booting into various menus at launch
+- BootMenu || Codes for booting into various menus at launch
