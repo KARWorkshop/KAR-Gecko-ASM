@@ -1,7 +1,7 @@
 # KAR-Gecko-ASM
-Repo for all the ASM and Gecko Codes used with KARphin
+Repo for all the ASM and Gecko Codes used with KARphin.
 
-Some of theses codes have been developed over time and thus have been tweaked heavilly. This repo is mainly for KARphin and it's extra codes. For Legacy codes they won't be updated. But KARphin has been cleaned up and have specific codes built for that client. Assume North American unless otherwise stated.
+Some of theses codes have been developed over time and thus have been tweaked heavilly and have older variants. This repo is mainly for KARphin and it's extra codes. For KARphin Legacy codes they are archived but won't be updated. KARphin's have been cleaned up and changed from that one. Mainly restoring memory cards and booting right into the debug menu. **Assume North American or modded variant unless otherwise stated.**
 
 - Legacy || All the codes shipped with the legacy client, not organized.
 
