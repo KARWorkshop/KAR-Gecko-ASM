@@ -1,4 +1,4 @@
-Star Spawns, some are banned in comp play. Only one star code can exist at a time.
+Star Spawns, some are banned in comp play. Only one star code can be enabled at a time.
 
 - No Swerve Star || Stops the swerve star from spawning
 

@@ -13,4 +13,6 @@ Some of theses codes have been developed over time and thus have been tweaked he
 
 - BootMenu || Codes for booting into various menus at launch
 
-- CT_StarSpawns || Affects start spawns, some are tagged as Backside B2 only
+- CT_StarSpawns || Affects star Spawns
+
+- CT_StadiumChance || Affects the stadium odds and how often they spawn.
