@@ -1,82 +1,6 @@
 
-$--------========<<<<<< City Trial >>>>>>========--------
-*Codes that strictly modify City Trial and its functions.
 
 
-
-
-
-
-
-
-
-$CT Time of Day Daytime [UnclePunch]
-0410f1bc 38000000
-$CT Time of Day Foggy [UnclePunch]
-0410f1bc 38000004
-$CT Time of Day Evening [UnclePunch]
-0410f1bc 38000008
-$CT Time of Day Night [UnclePunch]
-0410f1bc 3800000C
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$Secret Chamber Always Contains All Patches [UnclePunch]
-0410a9e8 38600014
-
-
-$Disable machine stats showing up when pausing [container12345]
-041139A0 48000064
-$Pillar Only Contains All Patches [container12345]
-04104F7C 38600014
-$Disable City Trial stats adjustment [container12345]
-04129310 60000000
-041614A4 60000000
-045DE880 00000000
-
-
-
-
-*https://twitter.com/container12345/status/1368234558148153354
-$--------========<<<<<< Event and Stadium >>>>>>========--------
-*Event & stadium codes.
-
-$Disable Chance to NOT have an Event [UnclePunch]
-040ee2c4 38600000
-$Remove Target Flight from Shuffle [container12345]
-C203F880 00000002
-7C1A0000 41820008
-2C1A0005 00000000
-
-$Disable event alarm [container12345]
-040EE89C 60000000
-
-$Pillars won't collapse in Sky Sands [container12345]
-0410E558 60000000
-$All pillars collapse at the same time in Sky Sands [container12345]
-04101204 60000000
-$Pillars won't be restored after collapse in Sky Sands [container12345]
-04100E3C 60000000
-$Fire dragons won't fly out of lava [container12345]
-0410A058 60000000
-
-
-$All events are foggy [container12345]
-040DC390 38000288
 $No fog event and no item bouncy event v3 [container12345]
 040EDE2C 60000000
 C20EDF58 00000003
@@ -86,24 +10,13 @@ C20EDF58 00000003
 
 $Always small meteors [container12345]
 041109E4 3863FFFF
-$UFO Brings Only All Patches [container12345]
-0410C0D8 38600014
+
 
 $Dyna Blade, Tac, and Meteor won't lose HP [container12345]
 0420B6FC 60000000
-$Remove Damage Scaling for Stadium [container12345]
-041C8E10 48000024
-$All random pads appear on Drag Race [container12345]
-040F40E0 48000150
-$Remove random pads from Drag Race [container12345]
-040F40F0 3AA00000
-040F40F8 41800010
-$Multiple Stadiums after City Trial [container12345]
-040402FC 4BFFF50D
-04040300 48000361
-04040304 7FDCF378
-0404035C 38000005
-04040360 38600010
+
+
+
 
 
 $--------========<<<<<< Abilities >>>>>>========--------

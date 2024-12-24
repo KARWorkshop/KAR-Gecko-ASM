@@ -12,4 +12,10 @@ Codes that effect events in CT
 
 - Statdium Predication At Start || statdium preduction always occures at the start of the match
 
-- Fog || handles various codes for fog event chance
+- Fog || handles various codes for fog event chance and properties
+
+- Disable Chance To Not Have A Event || disables the chance to NOT have a event, so we will always have a event when the time between event timer ticks to 0
+
+- All Events Are Foggy || all events get a nice cloaking of fog
+
+- All Patch Dropppers || tells certain events to spawn with All Patches

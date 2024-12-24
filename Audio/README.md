@@ -11,3 +11,5 @@ Various codes used for audio
 - Play Legendary Piece FX When Red Box || when a legendary piece is found, play the FX
 
 - CT Music No Change In Last 30s || music won't change in CT at the last 30 seconds
+
+- Disable event alarm || disables the event alarm
