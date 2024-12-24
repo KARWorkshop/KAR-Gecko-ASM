@@ -51,3 +51,7 @@ codes to do with items in a CT match
 - Boxes 1 KO || boxes break in one hit
 
 - Change Star Pole Item Drop Count || changes the amount of items the Star Pole drops, be it 3-20 or more as time goes on
+
+- Box Type Only || choose which box types spawn 
+
+- High Item Freq || increases the items droppped in CT and in stadiums, phased out by the option in the debug menu, unless you want more items in stadiums too.

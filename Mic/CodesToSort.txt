@@ -259,25 +259,8 @@ C20EDCA8 00000004
 61CEE778 7DC903A6
 4E800421 80010014
 60000000 00000000
-$No Legendary Air Ride Pieces Spawn [UnclePunch]
-04250b5c 3800FFFF
-$Items drop more frequently on City Trial [container12345]
-C20EA8C4 00000004
-800D07F8 2C000009
-4182000C 3403FFFF
-48000008 7C031811
-60000000 00000000
-C20EAA88 00000004
-800D07F8 2C000009
-4182000C 801E0004
-48000008 38000050
-60000000 00000000
-C224EF80 00000004
-806D07F8 2C030009
-4182000C 2C000064
-48000008 2C000078
-60000000 00000000
-*Items drop more frequently only on City Trial
+
+
 $3 Laps Single Race v2 [container12345]
 C2045C88 00000004
 3c608053 606359d8
@@ -310,10 +293,7 @@ $CT Time of Day Evening [UnclePunch]
 0410f1bc 38000008
 $CT Time of Day Night [UnclePunch]
 0410f1bc 3800000C
-$Items drop more frequently [container12345]
-040EA8CC 60000000
-040EAA8C 2C030046
-*More items drop on stadium too
+
 $Invincible Whispy [container12345]
 0410DB84 60000000
 $All players start with random machine include Dedede and Meta Knight on City Trial (VIEW NOTE) [container12345]
@@ -332,12 +312,7 @@ C202DE80 00000004
 4E800421 7C601B78
 60000000 00000000
 
-$Blue boxes only [container12345]
-040EBD98 38000000
-$Green boxes only [container12345]
-040EBD98 38000001
-$Red boxes only [container12345]
-040EBD98 38000002
+
 
 $Kirby and machine become huge as time goes on [container12345]
 C2190860 00000004
