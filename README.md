@@ -21,4 +21,6 @@ Some of theses codes have been developed over time and thus have been tweaked he
 
 - Audio || various codes that affect audio
 
-- Star Camping || Codes that stop star camping
+- CT_StarCamping || Codes that stop star camping
+
+- CT_CustomInput || codes for custom input for actions, some are built in now a days
