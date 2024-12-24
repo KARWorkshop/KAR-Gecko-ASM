@@ -41,6 +41,6 @@ Some of theses codes have been developed over time and thus have been tweaked he
 
 - CT_Items || codes that affect Items
 
-- CT_PowerUps || codes that affect power ups
+- CT_Ability || codes that affect abilities
 
 - CT_Map || codes that affect maps

@@ -9,3 +9,5 @@ All the codes to do with the custom input and affects. Some are built in now a d
 - DPad No Move || disables using the D Pad to move
 
 - Press Y To Quick Spin || press Y to quick spin
+
+- Press R To Self Destruction || press R to self-destruct

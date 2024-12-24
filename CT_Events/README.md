@@ -19,3 +19,9 @@ Codes that effect events in CT
 - All Events Are Foggy || all events get a nice cloaking of fog
 
 - All Patch Dropppers || tells certain events to spawn with All Patches
+
+- No Fog And Bouncy Items || stops the fog and bouncy item events from occuring
+
+- Always Small Meteros || only small meteros will drop
+
+- Dyna Tac Meteros No Lose HP || Dynablade, Tac, and Meteros won't lose health

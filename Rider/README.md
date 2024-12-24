@@ -33,3 +33,5 @@ Various rider based codes
 - Enable CPU Stat Cheating For Players In CT || gives players cheated stats like the CPUs
 
 - Kirb And Machine Become Bigger Over Time || Kirb And Machine Become Bigger Over Time
+
+- Kirb Can Jump When Taking Damage Off A Star || Kirbs can jump after falling from taking damage off a star
