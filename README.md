@@ -3,7 +3,7 @@ Repo for all the ASM and Gecko Codes used with KARphin.
 
 Some of theses codes have been developed over time and thus have been tweaked heavilly and have older variants. This repo is mainly for KARphin and it's extra codes. For KARphin Legacy codes they are archived but won't be updated. KARphin's have been cleaned up and changed from that one. Mainly restoring memory cards and booting right into the debug menu. **Assume North American or modded variant unless otherwise stated.**
 
-- Legacy || All the codes shipped with the legacy client, not organized.
+- LegacyGeckoCodeFiles || All the codes shipped with the legacy client, not organized.
 
 - LegacyASM || old ASM of the codes recover, kept for historical sake.
 
@@ -24,3 +24,5 @@ Some of theses codes have been developed over time and thus have been tweaked he
 - CT_StarCamping || Codes that stop star camping
 
 - CT_CustomInput || codes for custom input for actions, some are built in now a days
+
+- CT_StarModifiers || affects Stars that spawn
