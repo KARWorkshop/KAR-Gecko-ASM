@@ -20,3 +20,5 @@ Some of theses codes have been developed over time and thus have been tweaked he
 - Debug || various debug codes
 
 - Audio || various codes that affect audio
+
+- Star Camping || Codes that stop star camping
