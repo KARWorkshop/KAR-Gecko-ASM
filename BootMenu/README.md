@@ -4,4 +4,4 @@ Handles which menu you would like to be brought into at boot
 
 - BootMenu_LAN || boots right into the LAN menu.
 
-- BootMenu_Main || boots right into the LAN menu.
+- BootMenu_Main || boots right into the main menu.
