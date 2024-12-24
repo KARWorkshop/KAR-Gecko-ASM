@@ -380,15 +380,6 @@ D0230310 00000000
 041E02B0 60000000
 
 
-$Items are spawned in City Trial Free Run [container12345]
-0403FC08 38000009
-0403FC24 50A02EB4
-040D13B4 7E9B2396
-040D13B8 7E9421D6
-040D13BC 7F74D850
-040D13C0 48000008
-$No Legendary Pieces Spawn [UnclePunch]
-04250b5c 3800FFFF
 $Default rule is Time [container12345]
 04007004 98FE0000
 040073F0 98FC0000
@@ -417,8 +408,7 @@ C21279A4 00000005
 3FA08012 63BD799C
 7FA903A6 4E800421
 3BA30010 00000000
-$Items won't disappear by time [container12345]
-0424ED6C 3C807FFF
+
 $Respawn Dedede and Meta Knight in City Trial when defeated v2 [container12345]
 C21A5170 00000007
 3C608053 606359D8
@@ -435,8 +425,7 @@ $Machines never get stuck when hitting a wall on City Trial [container12345]
 041D2B70 41820150
 $Vehicles won't blast off [container12345]
 041E0270 60000000
-$All boxes break on one hit [container12345]
-04256240 60000000
+
 $Disable machine stats showing up when pausing [container12345]
 041139A0 48000064
 $Pillar Only Contains All Patches [container12345]
@@ -445,17 +434,8 @@ $Disable City Trial stats adjustment [container12345]
 04129310 60000000
 041614A4 60000000
 045DE880 00000000
-$Prevent items from bouncing up/spreading around after breaking a box [container12345]
-04250D3C C822C5B0
-04250DBC C822C5B0
-$Hydra parts appear every match [container12345]
-040ED09C 60000000
-$Dragoon parts appear every match [container12345]
-040ED1C0 60000000
-$Hydra parts never appear [container12345]
-040ED0A4 38600000
-$Dragoon parts never appear [container12345]
-040ED1C8 38600000
+
+
 $Play sound fx when legendary machine parts contained in red box appears [container12345]
 C20EA7E8 00000007
 2C1E0002 4082002C
@@ -465,13 +445,7 @@ C20EA7E8 00000007
 38A0007F 38C00002
 38E00003 4E800421
 2C1E0003 00000000
-$Contain multiple items in red/green box [container12345]
-04250BA4 60000000
-04250CC0 8079003C
-C2250CC4 00000002
-3880FFFF 38A00006
-60000000 00000000
-04250CC8 4BE9AB1D
+
 *https://twitter.com/container12345/status/1368234558148153354
 $--------========<<<<<< Event and Stadium >>>>>>========--------
 *Event & stadium codes.

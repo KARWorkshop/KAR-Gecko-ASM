@@ -1,6 +1,6 @@
 codes to do with items in a CT match
 
-- Legandary Parts Spawn Every Match || makes Legandary parts spawn every game
+- Legandary Parts Spawn || makes Legandary parts spawn every game, Hydra or Dragoon always spawn, or only one of them
 
 - Cracker Barrel Projectile || sets what a cracker barrel (the big gun) will fire
 
@@ -43,3 +43,9 @@ codes to do with items in a CT match
 - Slightly Less Insane FireWork || slightly less insane fire work
 
 - Items No Disaphere When Event || items won't be destroyed when a new event starts
+
+- Many Items In Red Green Boxes || multiable items in Green and Red Boxes
+
+- Items No Bounc From Box || stops items from jumping everywhere after you break a box
+
+- Boxes 1 KO || boxes break in one hit
