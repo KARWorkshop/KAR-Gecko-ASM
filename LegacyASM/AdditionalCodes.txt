@@ -1,0 +1,17 @@
+$Unlock Everything Gold Checklist [Cheetaboy]
+025367BC 003BFFFF
+025369FC 003BFFFF
+025368d4 003BFFFF
+04536EE8 FFFFFFFF
+04536EEC 00000000
+$Unrestricted City Trial Match Time Limit [magicscrumpy + gamemasterplc]
+0401F580 39000001
+0401F548 39000063
+0401F540 2C000001
+0401F578 2C000063
+$Skip Memory Card Nag and Tutorial Videos [UnclePunch]
+00535a02 000000FE
+04452798 38600000
+$Boot to Main Menu [UnclePunch]
+04047750 38600003
+

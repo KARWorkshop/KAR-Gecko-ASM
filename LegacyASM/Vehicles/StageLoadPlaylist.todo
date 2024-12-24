@@ -1,0 +1,16 @@
+#To be inserted @ 8000fe84
+.include "../Common.s"
+.include "../k-ex.s"
+
+b Exit
+
+
+lwz r4, 0x7fC(r13)
+mulli r3, r31, 0x58
+addi r4, r3, 4
+
+Load_Music:
+b 8000ff4c
+
+Exit:
+li r28 ,0x0

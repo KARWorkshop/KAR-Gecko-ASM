@@ -1,0 +1,6 @@
+#To be inserted @ 801aabe0
+.include "../Common.s"
+.include "../kex.s"
+
+li r4, 3
+branchl r12, 0x801a61d4

@@ -1,0 +1,42 @@
+#To be inserted @ 8018EF24
+.include "../Common.s"
+.include "../kex.s"
+
+# check current state
+  lwz r3, 0x1C(r31)
+  cmpwi r3, 0x21
+  bne Exit
+
+# load input
+  lwz r3, 0x3E4(r31)
+  andi. r3, r3, 0x800
+  cmpwi r3, 0
+  bne PressY
+  b Exit
+
+PressY:
+# check current ability
+  lbz r3, 0x457(r31)
+  cmpwi r3, 0xFF
+  bne LoseAbility
+  b GainAbility
+
+GainAbility:
+  backup
+
+  mr r3, r31
+  li r4, 3
+  branchl r12, 0x801a61d4
+
+  restore
+  b Exit
+
+LoseAbility:
+  li r3, 0x0
+  stw r3, 0x91C(r31)
+  b Exit
+
+
+Exit:
+  mr r3, r31
+
