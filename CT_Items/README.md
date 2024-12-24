@@ -19,3 +19,17 @@ codes to do with items in a CT match
 - Throw Time Bomb Instead Of Gordo || throw a TIME BOMB! instead of a Gordo as Taco inteneded
 
 - Throw Bombs Instead Of Gordo || throw bombs instead of gordos
+
+- Firecracker Double Speed || firecracker shoots twice as fast
+
+- Endless Panick Spin || endless Panick Spin
+
+- Endless Gold Spike ||
+
+- Endless Power Up/Down ||
+
+- Endless Candy || endless Invul Candy
+
+- Endless Firework || endless firework
+
+- Insane Firework || insane firework
