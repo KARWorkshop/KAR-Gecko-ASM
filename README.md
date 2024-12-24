@@ -17,7 +17,7 @@ Some of theses codes have been developed over time and thus have been tweaked he
 
 - CT_StarSpawns || Affects star Spawns
 
-- CT_StadiumChance || Affects the stadium odds and how often they spawn.
+- CT_Stadium || Affects the stadiums.
 
 - Debug || various debug codes
 
@@ -38,3 +38,9 @@ Some of theses codes have been developed over time and thus have been tweaked he
 - Outdated Codes || super old codes that are never used or have newer versions, we keep theses for the sake of history.
 
 - Rider || codes that affect Riders
+
+- CT_Items || codes that affect Items
+
+- CT_PowerUps || codes that affect power ups
+
+- CT_Map || codes that affect maps
