@@ -7,6 +7,10 @@ Some of theses codes have been developed over time and thus have been tweaked he
 
 - LegacyASM || old ASM of the codes recover, kept for historical sake.
 
-- NetplayCore || All the core codes used in netplay, always enabled.
+- CT_NetplayCore || All the core codes used in netplay, always enabled.
+
+- CT_Fullscreen || All the screen codes and specific screen codes. Auto-loaded by KARphin
 
 - CT_TimeOfDay || Affect the time of day in a CT match
+
+- BootScreen || Codes for booting into various menus at launch
