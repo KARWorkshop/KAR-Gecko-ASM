@@ -49,3 +49,5 @@ codes to do with items in a CT match
 - Items No Bounc From Box || stops items from jumping everywhere after you break a box
 
 - Boxes 1 KO || boxes break in one hit
+
+- Change Star Pole Item Drop Count || changes the amount of items the Star Pole drops, be it 3-20 or more as time goes on
