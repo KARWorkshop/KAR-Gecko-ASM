@@ -979,83 +979,10 @@ $Angry face Kirby expression [container12345]
 04198C44 3B800004
 $Angry face 2 Kirby expression [container12345]
 04198C44 3B800005
-$CPU AI type modifier (NONE) (VIEW NOTE) [container12345]
-04262E04 38600000
-*Requires Less Restrictive Crash Debugger
-$CPU AI type modifier (AUTO) [container12345]
-04262E04 38600001
-$CPU AI type modifier (RACE) [container12345]
-04262E04 38600002
-$CPU AI type modifier (CITY) [container12345]
-04262E04 38600003
-$CPU AI type modifier (ZERO) [container12345]
-04262E04 38600004
-*Drag Race
-$CPU AI type modifier (BATT1) [container12345]
-04262E04 38600005
-*Kirby Melee 1
-$CPU AI type modifier (BATT2) [container12345]
-04262E04 38600006
-*Kirby Melee 2
-$CPU AI type modifier (POINT) [container12345]
-04262E04 38600007
-*Target Flight
-$CPU AI type modifier (DEATH) [container12345]
-04262E04 38600008
-*Destruction Derby
-$CPU AI type modifier (AIR) [container12345]
-04262E04 38600009
-$CPU AI type modifier (DEDEDE) [container12345]
-04262E04 3860000A
+
 $--------========<<<<<< Various >>>>>>========--------
 *Codes that aren't exactly able to be categorized, but one day might be.
-$Squashed World (VIEW NOTE) [bopie64]
-28535300 00000021
-0441764C 60000000
-28535301 00000022
-0441764C C17C0004
-E0000000 80008000
-*ported by container12345
-*On/Off: R+D-Pad Left/Right
-*Must enable Less Restrictive Crash Debugger
-$Slanted World (VIEW NOTE) [bopie64]
-28535300 00000030
-04417630 60000000
-28535301 00000050
-04417630 C03D0008
-E0000000 80008000
-*ported by container12345
-*On/Off: L/R+Z
-*Must enable Less Restrictive Crash Debugger
-$Squashed World 2 (VIEW NOTE) [bopie64]
-28535300 00000041
-04417650 60000000
-28535301 00000042
-04417650 C19C0008
-E0000000 80008000
-*ported by container12345
-*On/Off: L+D-Pad Left/Right
-*Must enable Less Restrictive Crash Debugger
-$Split Audio Channels (incomplete port) [UnclePunch]
-c244b178 00000009
-b01d0084 800d1458
-2c000000 40820034
-889a000b 2c04003f
-40820018 38800000
-b081000c b0810014
-b081001c 48000014
-38800000 b0810008
-b0810010 b0810018
-38810008 00000000
-c244af3c 00000009
-800d1458 2c000000
-40820034 889e0011
-2c04003f 40820018
-38800000 b081000c
-b0810014 b081001c
-48000014 38800000
-b0810008 b0810010
-b0810018 38810008
-60000000 00000000
-*Ported by container12345
+
+
+
 

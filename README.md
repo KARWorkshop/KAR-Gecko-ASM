@@ -28,3 +28,13 @@ Some of theses codes have been developed over time and thus have been tweaked he
 - CT_CustomInput || codes for custom input for actions, some are built in now a days
 
 - CT_StarModifiers || affects Stars that spawn
+
+- AI || codes for various AIs
+
+- CT_Eevnts || various codes for CT events
+
+- Mic || codes that have no good place or needs to be organized
+
+- Outdated Codes || super old codes that are never used or have newer versions, we keep theses for the sake of history.
+
+- Rider || codes that affect Riders
