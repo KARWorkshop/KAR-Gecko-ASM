@@ -888,14 +888,6 @@ $Tac x3 Size [container12345]
 045DFB28 40400000
 $Tac  x10 Size [container12345]
 045DFB28 41200000
-$Snowstorm 2x size [container12345]
-041A9B90 3CC04000
-041A9C00 90C1003C
-$Snowstorm 3x size [container12345]
-041A9B90 3CC04040
-041A9C00 90C1003C
-$Snowstorm 10x size [container12345]
-041A9B90 3CC04120
-041A9C00 90C1003C
+
 
 
