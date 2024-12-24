@@ -9,3 +9,5 @@ Various debug codes
 - Allow Machine Select In CT || allows you to select your machine in CT
 
 - Show JObjs In Top Ride || shows the hidden J Objs in Top Ride
+
+- Toggleable G Obj Displays || shows the G Obj Displays

@@ -19,3 +19,5 @@ Theses codes KARphin always has on by default and should be kept on. KARphin ide
 - Timer Default 6 || sets the default timer to 6 minuets, will be merged into a built in mod in KARphin eventually
 
 - Unlock Everything || unlocks everything
+
+- Unrestricted Cam || unrestricted camera
