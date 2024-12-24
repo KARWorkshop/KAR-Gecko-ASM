@@ -11,6 +11,6 @@ Some of theses codes have been developed over time and thus have been tweaked he
 
 - CT_Fullscreen || All the screen codes and specific screen codes. Auto-loaded by KARphin
 
-- CT_TimeOfDay || Affect the time of day in a CT match
-
 - BootMenu || Codes for booting into various menus at launch
+
+- CT_StarSpawns || Affects start spawns, some are tagged as Backside B2 only
