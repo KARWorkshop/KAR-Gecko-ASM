@@ -16,3 +16,7 @@ Some of theses codes have been developed over time and thus have been tweaked he
 - CT_StarSpawns || Affects star Spawns
 
 - CT_StadiumChance || Affects the stadium odds and how often they spawn.
+
+- Debug || various debug codes
+
+- Audio || various codes that affect audio
