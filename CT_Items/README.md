@@ -33,3 +33,13 @@ codes to do with items in a CT match
 - Endless Firework || endless firework
 
 - Insane Firework || insane firework
+
+- Items Always Bouncy || items are always bouncy without event
+
+- Fake Patches Appear Without Event || fake patches appear even without the event
+
+- Every Box Contains All Patches When In Same Item Event || every box contains All Pathes when Same Item event is active
+
+- Slightly Less Insane FireWork || slightly less insane fire work
+
+- Items No Disaphere When Event || items won't be destroyed when a new event starts
