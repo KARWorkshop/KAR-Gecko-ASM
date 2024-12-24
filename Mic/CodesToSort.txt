@@ -635,18 +635,10 @@ $Abilities Last Forever [UnclePunch]
 041a7c84 4e800020
 $Infinite bombs in Top Ride [container12345]
 04304A24 38800000
-$Throw bombs instead of gordos [container12345]
-041AA030 38C00004
-$Throw time bombs instead of gordos [container12345]
-041AA030 38C0000F
-$Throw a time bomb instead of a bomb [container12345]
-041A9418 38C0000F
-$Cracker shoot random plasma bullets [container12345]
-C21A9D34 00000004
-3C008041 6000E668
-7C0903A6 38600006
-4E800421 38030005
-60000000 00000000
+
+
+
+
 $Plasma Lv1 and Lv2 shoot Lv3 bullets [container12345]
 C21A95D0 00000004
 2C1B0006 4181000C
@@ -657,8 +649,7 @@ $Plasma Lv2 bullets go straight [container12345]
 041A96A4 480000F8
 041A979C 2C1B0006
 041A97A0 4181001C
-$Items won't disappear by time [container12345]
-0424ED6C 3C807FFF
+
 $Press R to Self Destruct [container12345]
 C222CF3C 00000005
 8083003C 80840438
@@ -680,11 +671,6 @@ C21B8448 00000006
 3C00801B 600084C8
 7C0903A6 4E800420
 7FE3FB78 00000000
-$Throw Gordo when A button is released [container12345]
-041B7424 800303D8
-041B7428 540005EF
-041B742C 4082000C
-$Sensor Bomb never explodes over time [container12345]
-04229E94 38030000
-$Disable Gordo Spawn Limit [container12345]
-0422A6B0 60000000
+
+
+
